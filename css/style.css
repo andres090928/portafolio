@@ -1,0 +1,331 @@
+:root{
+    --bg-body:#0e0e0e;
+    --primary-color:#2840ac;
+    --fontSize-title:40px;
+    --fontSize:20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    padding: 40px 0 0 0;
+    background:url("../img/prueba2.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+header .nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.nav .nav-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.nav li a:hover{
+
+    border-bottom: 2px solid #fff ;
+    border-top: 2px solid #fff;
+}
+/* section despues del barra de navegacion */
+#hero {
+    text-align: center;
+    padding-top: 150px;
+  }
+  #hero img {
+    width: 100px;
+    height: 120px;
+  }
+  #hero h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+  }
+  #hero h1 {
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  #textos {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  #textos p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+  }
+  #textos img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+/* section Perfil Profesional */
+.cont3{
+    padding-top: 60px;
+    text-align: center;
+    background: var(--bg-body);
+    height: 50vh;
+    color: #fff;
+}
+.cont3 h2{
+    color: var(--primary-color);
+}
+.cont3 p{
+    font-size: 25px;
+}
+.con3 img{
+    height: 70px;
+    width: 50%;
+}
+
+
+/* section HABILIDADES */
+#section2{
+    position: relative;
+    background: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#section2 .sesion5{
+    padding: 40px;
+    background-color: #EFEFEF;
+    position: absolute;
+    text-align: center;
+    bottom: 0;  
+    left: 10px; 
+}
+.cont6 h1{
+    color: var(--primary-color);
+}
+#section2 .cont6{
+    background: #EFEFEF;
+    padding:50px;
+    text-align: center;
+}
+.cont6 .parrafo{
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 160px;
+    width: 500px;
+}
+#carouselReviews .carousel-item{
+    text-align: center;
+    padding-top: 40px;
+}
+#carouselReviews .carousel-item img{
+    width: 150px;
+    
+}
+.carousel-control-prev,
+  .carousel-control-next {
+    border-color: black;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1);
+  }
+/* SECTION PROYECTOS  */
+#section3{
+    padding-top:20px;
+    width: 100%;
+    background:var(--bg-body);
+    padding: 40px;
+    text-align: center;
+}
+#section3 h2{
+    padding-bottom: 20px;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--fontSize-title);
+    margin-top: 20px;
+}
+#section3 p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+#section3 .fila{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color:#fff;
+    text-align: center;
+    margin-top: 10px;
+}
+#section3 .fila h3{
+    font-size: 20px;
+
+}
+#section3 .fila1 h3{
+    font-size: 20px;
+
+}
+
+#section3 .fila1{
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center; 
+}
+
+#section3 .col-des img{
+    width: 400PX;
+    height: 200px;
+}
+
+/* SECTION HOBBIES */
+#section4{
+    padding-top:50px;
+    width: 100%;
+    background:#EFEFEF;
+    padding: 40px;
+    text-align: center;
+}
+#section4 h2{
+    padding-bottom: 20px;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--fontSize-title);
+    margin-top: 50px;
+}
+#section4 .fila{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color:#000;
+    text-align: center;
+    margin-top: 20px;
+}
+#section4 .col-des img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+/* section estudios */
+#section5{
+    width: 100%;
+    position: relative ;
+    text-align: left;
+    padding: 70px 0 100px;
+    background: var(--bg-body);
+}
+#section5 h2{
+    font-size: var(--fontSize-title);
+    color: var(--primary-color);
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+}
+#section5 h2::after{
+    width: 60%;
+    height: 4px;
+    background: var(--primary-color);
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 52%;
+}
+#section5 .card-destacadas{
+    
+    border-radius: 4px;
+    position: relative;
+}
+#section5 .card-destacadas img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+#section5 .card-destacadas .cont-info{
+    background: #292c36;
+    padding: 14px;
+    border-radius: 0 0 4px 4px ;
+    transition: .4s;
+}
+#section5 .card-destacadas .cont-info:hover{
+ background: var(--primary-color);
+}
+.card-destacadas .cont-info h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.card-destacadas .cont-info p{
+    color: #c6c6c6;
+    font-size: 16px;
+}
+footer{
+    background: #464545;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px;
+}
+/* para portatiles */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    header{
+        height: 100vh;
+    }
+    .cont3{
+        height: 60vh;
+    }
+    .cont3  p{
+        font-size: 20px;
+    }
+}
+/* para moviles */
+@media screen and (min-width: 320px) and (max-width:680px){
+    header{
+        height: 100vh;
+    }
+    #hero {
+        text-align: center;
+        padding-top: 70px;
+    }
+    .cont3{
+        height: 70vh;
+    }
+    .cont3  p{
+        font-size: 15px;
+    }
+    #section3 .fila{
+        display: block;
+    }
+    #section3 .col-des img{
+        width: 250px;
+        height: 80px;
+    }
+    #section3 .fila1{
+        display: block;
+    }
+    #section4 .fila{
+        display: block;
+    }
+    #section4 .col-des img{
+        width: 250px;
+        height: 80px;
+    }
+    footer{
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+    }
+
+}
